@@ -44,8 +44,8 @@
         "Annyeonghaseyo"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting"
+        "Hello! How can I assist you today?",
+        "Hi! How can I help you today?"
       ]
     },
     {
@@ -80,7 +80,8 @@
         "Can you provide some help?",
         "I need a little help with something.",
         "Could you help me figure this out?",
-        "Will you lend a hand?"
+        "Will you lend a hand?",
+        "Help"
       ],
       "responses": [
         "Hi there, what can I do for you?",
@@ -165,21 +166,21 @@
         "Thanks for everything."
       ],
       "responses": [
-        "Happy to help!",
-        "Any time!",
-        "My pleasure"
+        "I'm glad that I helped you.",
+        "Any time, I'm happy to help!",
+        "My pleasure, I'm here to help you if you need anything!"
       ]
     },
     {
       "tag": "services",
       "patterns": [
-        "What services does Nexxus Lab offer?",
+        "What services do you offer?",
         "Can you tell me about Nexxus Lab's services?",
         "What kind of work does Nexxus Lab do?",
-        "I'm curious about the services available at Nexxus Lab.",
-        "Could you list the services provided by Nexxus Lab?",
-        "What solutions does Nexxus Lab offer?",
-        "I'd like to know more about Nexxus Lab's offerings.",
+        "I'm curious about the services available.",
+        "Could you list the services you provide?",
+        "What solutions do you offer?",
+        "I'd like to know more about you.",
         "What services do you offer?",
         "What are your services?",
         "What your services?",
@@ -195,31 +196,26 @@
         "What services do you provide?",
         "Do you provide marketing services?",
         "Do you do marketing?",
-        "I'd like to know more about Nexxus Lab's offerings.",
         "What does Nexxus Lab specialize in?",
-        "Can you describe the services Nexxus Lab provides?",
-        "What can Nexxus Lab do for me?",
-        "What kind of projects does Nexxus Lab handle?",
-        "Are there specific services Nexxus Lab is known for?",
-        "Does Nexxus Lab offer custom development?",
-        "Can you help with website development?",
-        "What types of websites do you create?",
-        "Do you offer both static and dynamic website solutions?",
+        "Can you describe the services you provide?",
+        "What can you do for me?",
+        "What kind of projects do you handle?",
+        "Are there specific services that you are known for?",
         "What services can I avail from your company?",
         "What does your company do?",
-        "How can your company assist me with my projects?",
+        "Services",
         "Can you list down your services?",
         "I wish to see your services?",
         "Could you please tell me about your services?",
         "Tell me about your services",
         "Share with me your services",
         "Can you elaborate to me about your services?",
-        "What are the services that you can provide?",
-        "Do you create websites?",
-        "I would like to avail your services."
+        "What are the services that you can provide?"
       ],
       "responses": [
-        "Nexxus Lab specializes in creating landing pages, static and dynamic websites, and mobile applications. We also offer SEO expertise and AI-powered digital marketing services."
+        "Dr. Suzy Roxas specializes in Cognitive Therapy, focusing on present thinking, behaviors, and communication for problem-solving and personal development.",
+        "Dr. Suzy Roxas is an expert in Cognitive Therapy, emphasizing current thoughts, behaviors, and communication to aid in problem-solving and personal growth.",
+        "Dr. Suzy Roxas excels in Cognitive Therapy, targeting current thoughts, behaviors, and communication to enhance problem-solving and personal development."
       ]
     },
     {
@@ -263,201 +259,7 @@
         "Provide quote."
       ],
       "responses": [
-        "Please send us an email at team@nexxuslab.com with the details of your project, and we will get back to you with a quote."
-      ]
-    },
-    {
-      "tag": "process",
-      "patterns": [
-        "What is the process for starting a project with Nexxus Lab?",
-        "How do I start a project with you?",
-        "How do I begin working with Nexxus Lab?",
-        "Can you explain the steps to initiate a project?",
-        "What's involved in kicking off a project with your team?",
-        "I want to start a project. What should I do first?",
-        "Could you outline the process for new project initiation",
-        "How does Nexxus Lab handle new project requests?",
-        "Is it possible for me to work with you?",
-        "Can we do a project together?",
-        "Can we collaborate?",
-        "Can I collaborate with your company?",
-        "Can I work with your company?",
-        "Is it alright to work on a project with your company?",
-        "Project.",
-        "How can I setup a new project with Nexxus Lab?",
-        "Can I discuss a potential project with Nexxus Lab?",
-        "What is the first step to start working with Nexxus Lab?",
-        "How does Nexxus Lab approach new project setups?",
-        "How do I get started on a new project with your team?",
-        "How can I initiate a project with your company?",
-        "Can you help me create a website?",
-        "Can you help me create one?"
-      ],
-      "responses": [
-        "To start a project, you can contact us through our email at team@nexxuslab.com. We will discuss your requirements, provide a quote, and outline the next steps for your project."
-      ]
-    },
-    {
-      "tag": "seo",
-      "patterns": [
-        "Do you offer SEO services?",
-        "Is SEO part of your service offerings?",
-        "Can Nexxus Lab help with search engine optimization?",
-        "Do you provide any SEO-related solutions?",
-        "Are SEO services available through Nexxus Lab?",
-        "I'm looking for SEO assistance. Is that something you do?",
-        "Does your company work on improving search engine rankings?",
-        "Can I ask if you offer SEO services?",
-        "Can I ask about your SEO services?",
-        "What about SEO services?",
-        "What about SEO?",
-        "Can Nexxus Lab help with SEO?",
-        "What SEO packages do you offer?",
-        "You have SEO services?",
-        "What are your SEO services?",
-        "Do you provide custom SEO solutions?",
-        "Do you provide SEO consulting?",
-        "Are you able to optimize content for SEO?",
-        "Do you help with keyword research?",
-        "Can you assist with SEO analytics?"
-      ],
-      "responses": [
-        "Yes, we have a team of SEO experts who can help optimize your website to improve its search engine rankings and drive more traffic to your site."
-      ]
-    },
-    {
-      "tag": "digital_marketing",
-      "patterns": [
-        "What is AI-powered digital marketing?",
-        "Can you explain AI-powered digital marketing?",
-        "How does artificial intelligence factor into digital marketing?",
-        "What role does AI play in modern marketing strategies?",
-        "Could you describe the concept of AI-driven digital marketing?",
-        "I'm curious about AI in digital marketing. What does that mean?",
-        "How is AI transforming digital marketing practices?",
-        "Can you tell me more about AI marketing?",
-        "Are you giving services to AI marketing?",
-        "Do you provide digital marketing services?",
-        "Can you explain the benefits of AI in digital marketing?",
-        "Do you provide customized digital marketing solutions?",
-        "Do you implement AI in marketing?",
-        "Can you help with AI-driven marketing strategies?",
-        "What are the benefits of AI-powered digital marketing?",
-        "What digital marketing services do you offer?"
-      ],
-      "responses": [
-        "Our AI-powered digital marketing services use advanced algorithms and machine learning techniques to analyze data and optimize your marketing strategies for better results and higher ROI."
-      ]
-    },
-    {
-      "tag": "mobile_application",
-      "patterns": [
-        "Can you develop mobile applications for both iOS and Android?",
-        "Do you offer app development for iOS and Android platforms?",
-        "Are you capable of creating apps that work on both iPhones and Android devices?",
-        "Is cross-platform mobile app development something you provide?",
-        "Can I get an app made for both major mobile operating systems?",
-        "Do your mobile development services cover iOS and Android?",
-        "I'm looking for a mobile application. Is that something you do?",
-        "Are you able to build apps compatible with Apple and Google smartphones?",
-        "Can I ask if you offer mobile application development?",
-        "What about mobile app?",
-        "Do you offer mobile app services?",
-        "Mobile application development.",
-        "Can you tell me about your mobile application development?",
-        "Do you develop mobile applications?",
-        "I want to have a mobile app of my own, can you create one?",
-        "Does Nexxus Lab create mobile apps?"
-      ],
-      "responses": [
-        "Yes, we develop mobile applications for both iOS and Android platforms, ensuring that your app reaches a wide audience."
-      ]
-    },
-    {
-      "tag": "maintenance_and_support",
-      "patterns": [
-        "Do you provide maintenance and support for the websites and apps you develop?",
-        "What kind of ongoing support do you offer for your digital products?",
-        "After development, do you continue to maintain websites and applications?",
-        "Is there a post-launch support service for your digital solutions?",
-        "Can I count on you for long-term maintenance of my website or app?",
-        "Do you offer any support packages for the digital products you create?",
-        "What's your policy on maintaining and supporting completed projects?",
-        "Do you cater maintenance and support for websites?",
-        "Can you support services in my website?",
-        "Do you offer maintenance?",
-        "Do you offer support?",
-        "Do you provide maintenance services?",
-        "Can you keep my website up-to-date?",
-        "You have maintenance and support?",
-        "Can you do maintenance on applications?",
-        "Can you provide some help in regards to supporting a website?",
-        "Are you able to provide some maintenance?",
-        "Do you have supporting services?",
-        "Maintenance for websites?"
-      ],
-      "responses": [
-        "Yes, we offer maintenance and support services to ensure that your website or mobile app remains up-to-date and functions smoothly."
-      ]
-    },
-    {
-      "tag": "how_long_to_complete",
-      "patterns": [
-        "How long does it take to complete a project?",
-        "What's the typical timeline for project completion?",
-        "Can you give me an estimate of project duration?",
-        "How much time should I expect a project to take?",
-        "What factors influence the timeline of a project?",
-        "On average, how long do your projects usually last?",
-        "Could you provide a rough timeframe for project completion?",
-        "How long can you work on it?",
-        "How long will you work on it?",
-        "Until when can you finish projects?",
-        "How long 'till you finish?",
-        "Can you finish until",
-        "Can you finish within a day?",
-        "What is the expected duration for project completion?",
-        "How soon can you complete a project?",
-        "How long does a project take to finish?",
-        "What's the average time to complete a project?",
-        "Can you tell me the duration for completing a project?",
-        "How long does it take for you to complete projects?",
-        "What is the usual timeframe for project completion?",
-        "How long until a project is completed?",
-        "When can I expect the project to be finished?",
-        "How long until projects finish?",
-        "How much time do you need to finish a project?",
-        "What's the timeline for projects?",
-        "How quickly can you finish a project?"
-      ],
-      "responses": [
-        "The timeline for each project varies depending on its complexity and scope. After discussing your requirements, we will provide you with an estimated timeline."
-      ]
-    },
-    {
-      "tag": "redesigning",
-      "patterns": [
-        "Can you help with redesigning my existing website?",
-        "Do you offer website redesign services?",
-        "Is it possible to get my current website updated by your team?",
-        "I need a website makeover. Is that something you do?",
-        "Can you assist in refreshing the look of my existing site?",
-        "Do you take on projects to modernize outdated websites?",
-        "Is website renovation part of your service offerings?",
-        "Do you redesign existing websites?",
-        "Hi. Do you redesign existing websites?",
-        "Hey there! Do you redesign websites?",
-        "Hey there! Do you redesign websites?",
-        "Can you make my website beautiful?",
-        "Can you give my current website a new look?",
-        "Is website redesigning available?",
-        "Do you take on projects for website design improvements?",
-        "Can you help upgrade my website's design?",
-        "Can you recreate my website with a new design?",
-        "Is it possible to update the design of my website?"
-      ],
-      "responses": [
-        "Absolutely! We can redesign your existing website to give it a fresh, modern look and improve its functionality."
+        "Please send us an email at Suzy_roxas@yahoo.com with the details of your project, and we will get back to you with a quote."
       ]
     },
     {
@@ -512,172 +314,7 @@
         "Who do I email for business inquiries with Nexxus Lab?"
       ],
       "responses": [
-        "You can reach us at team@nexxuslab.com. We are happy to answer any questions and provide additional information about our services."
-      ]
-    },
-    {
-      "tag": "Internship_Inquiry",
-      "patterns": [
-        "Internship?",
-        "OJT?",
-        "Do you have an internship?",
-        "Are there any internships available?",
-        "Appreciate it, Can I work as an intern at Nexxus Labs?",
-        "Are there any OJT opportunities at Nexxus Labs?",
-        "How can I apply for an internship at Nexxus Labs?",
-        "Do you offer internships for students?",
-        "Can I get an internship position at Nexxus Labs?",
-        "Is Nexxus Labs hiring interns?",
-        "How do I become an intern?",
-        "What is the process to apply for an internship at Nexxus Labs?",
-        "Do you have any openings for internships?",
-        "Who do I contact for internship opportunities?",
-        "Can international students apply for internships at Nexxus Labs?",
-        "Can I apply for an OJT?",
-        "Can I apply for an Internship?",
-        "Do you accept On The Job Training Students?",
-        "Do you take in students for an internship?",
-        "I'm looking for an internship opportunity.",
-        "Do you have an OJT program?",
-        "Could you elaborate on the details of your internship?",
-        "How can I get the internship?",
-        "Oh I see, is there any on the job training in your company?"
-      ],
-      "responses": [
-        "Yes, Nexxus Lab offers internships, kindly send us an email to team@nexxuslab.com with your CV and endorsement letter from your school if you are interested."
-      ]
-    },
-    {
-      "tag": "Internship_Duration",
-      "patterns": [
-        "What are the minimum hours required to complete the internship?",
-        "How long is the duration of the internship?",
-        "How many hours does your company require us to complete our OJT?",
-        "How long is your OJT program?",
-        "How many hours do I need to complete my internship with you?",
-        "How long is the internship at Nexxus Lab?",
-        "How long do I need to work for you to complete my OJT?",
-        "How long do I need to work for you to complete my internship?",
-        "May I ask how long is the work period for OJT?",
-        "Is it possible to have OJT within the required hours of my University?",
-        "What is the required hours for the internship?",
-        "What is the minimum amount of hours for the internship?",
-        "Do you have a set amount of work hours for an internship?",
-        "Do you have a specific amount of work hours for OJT?",
-        "Can you tell me the internship duration of your company?",
-        "Can you elaborate to me the internship duration of your company?"
-
-      ],
-      "responses": [
-        "At Nexxus Lab, we don't have a specific minimum number of hours required for completing your internship. We will follow the hours required by your school to ensure you meet their criteria for the internship."
-      ]
-    },
-    {
-      "tag": "Internship_Requirements",
-      "patterns": [
-        "What are your requirements for an internship?",
-        "What documents do I have to send when applying for an OJT?",
-        "What documents do I have to send when applying for an Internship?",
-        "What are the files I need to submit to apply for an OJT?",
-        "What are the files I need to submit to apply for an Internship?",
-        "Required documents for OJT.",
-        "Required files for OJT.",
-        "Required documents for Internship.",
-        "Required files for Internship.",
-        "Do I need to submit a Resume and a cover letter?",
-        "Is the internship paid?",
-        "Will I get paid?",
-        "What are the requirements for an internship at Nexxus Labs?",
-        "Is this a paid internship?",
-        "Do you provide a paid-internship?",
-        "Do I have to sign an NDA form?",
-        "Do I have to sign a Non-Disclosure Agreement?",
-        "How do I apply for an OJT?",
-        "What are the requirements?",
-        "Hello, how can I take my internship in your company?",
-        "How can I take my internship in your company?"
-
-      ],
-      "responses": [
-        "Nexxus Labs requires aspiring interns to submit their CV and endorsement letter from their university. Keep in mind that this is a non-paid internship and we will require you to sign a Non-Disclosure Agreement when you're accepted."
-      ]
-    },
-    {
-      "tag": "Internship_Details",
-      "patterns": [
-        "What are the tasks if I were to apply for an internship at your company?",
-        "What responsibilities will I be doing for OJT?",
-        "What are the positions available for internship?",
-        "What are the roles available for internship?",
-        "What kind of tasks should I expect when I apply for an internship?",
-        "Are there any training programs for interns?",
-        "What can I expect to learn during my internship?",
-        "Can you give an overview of the intern responsibilities?",
-        "What kind of assignments do interns receive?",
-        "What specific responsibilities are assigned to interns?",
-        "What kind of projects will interns be working on?",
-        "What type of work will I be involved in as an intern?",
-        "Can you outline the tasks for an internship role?",
-        "Can you tell me what interns do in your company?",
-        "What is the workload for interns?",
-        "What roles should I keep in mind if I plan to be an intern?",
-        "Tell me role expectations for the internship.",
-        "List of positions for the internship",
-        "List of roles for the internship."
-      ],
-      "responses": [
-        "Here at Nexxus Lab, we offer roles in AI Digital Marketing, Front End Development, UI Design, and Project Management. Interns will gain hands-on experience in their chosen field, working on real projects and collaborating with our dynamic team."
-      ]
-    },
-    {
-      "tag": "Inappropriate",
-      "patterns": [
-        "Can we have sex?",
-        "I want your ass",
-        "Hello nigga",
-        "Can I have your ass?",
-        "When will I get nudes from you?",
-        "Murder.",
-        "hit someone.",
-        "Fuck you",
-        "Bitch",
-        "Retard",
-        "Shit",
-        "Sex",
-        "Penis",
-        "Motherfucker",
-        "Nigga",
-        "Faggot",
-        "Kill yourself",
-        "I hope you die",
-        "I hate you",
-        "Nigger",
-        "Whore",
-        "Blowjob",
-        "Give me head",
-        "Cock",
-        "Vagina",
-        "Clitoris",
-        "Asshole",
-        "Cunt",
-        "Damn",
-        "Pussy",
-        "Dick",
-        "Son of a bitch",
-        "STFU",
-        "Shut the fuck up",
-        "Shut up",
-        "Jesus fucking christ",
-        "Slut",
-        "I don't care",
-        "Who cares?",
-        "You're dumb",
-        "You're stupid",
-        "Holy shit",
-        "Heil Hitler"
-      ],
-      "responses": [
-        "I hope you understand, but we do not tolerate aggressive or inappropriate behavior. Please communicate respectfully. If this behavior continues, we will no longer entertain any more questions. Thank you for your understanding."
+        "You can reach us at Suzy_roxas@yahoo.com. We are happy to answer any questions and provide additional information about our services."
       ]
     },
     {

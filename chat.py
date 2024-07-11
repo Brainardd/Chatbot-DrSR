@@ -2,6 +2,7 @@ import random
 import json
 import numpy as np
 import torch
+from better_profanity import profanity  # Import the profanity filter
 
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
@@ -28,6 +29,10 @@ model.eval()
 bot_name = "DrSuzyRoxasBot"
 
 def get_response(msg):
+    # Check for profanity
+    if profanity.contains_profanity(msg):
+        return "Please refrain from using inappropriate language."
+
     sentence = tokenize(msg)
     X = np.array(bag_of_words(sentence, all_words), dtype=np.float32)
     X = torch.tensor(X, dtype=torch.float32).unsqueeze(0).to(device)
@@ -44,10 +49,10 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
     
-    return "I'm sorry, but I don't have information about that. I'm an AI assistant focused on Dr. Suzy Roxas's clinical psychology services. Is there anything specific about her services, appointment process, therapy offerings, or consultation options that I can help you with?"
-
+    return "I'm sorry, but I don't have information about that. I'm an AI assistant focused on Nexxus Lab's services. Is there anything specific about our services, quoting process, project initiation, or SEO offerings that I can help you with?"
 
 if __name__ == "__main__":
+    profanity.load_censor_words()  # Load default profanity words
     print("Let's chat! (type 'quit' to exit)")
     while True:
         sentence = input("You: ")
