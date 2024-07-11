@@ -25,7 +25,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "NexxusBot"
+bot_name = "DrSuzyRoxasBot"
 
 def get_response(msg):
     sentence = tokenize(msg)
@@ -44,7 +44,7 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
     
-    return "I'm sorry, but I don't have information about that. I'm an AI assistant focused on Nexxus Lab's services. Is there anything specific about our services, quoting process, project initiation, or SEO offerings that I can help you with?"
+    return "I'm sorry, but I don't have information about that. I'm an AI assistant focused on Dr. Suzy Roxas's clinical psychology services. Is there anything specific about her services, appointment process, therapy offerings, or consultation options that I can help you with?"
 
 
 if __name__ == "__main__":
