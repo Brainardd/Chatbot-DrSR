@@ -44,8 +44,9 @@
         "Annyeonghaseyo"
       ],
       "responses": [
-        "Hello! How can I assist you today?",
-        "Hi! How can I help you today?"
+        "Welcome! How can I be helpful to you today? Please let me know how I can best support you with your current request.",
+        "Hello there! What can I do for you today? I'm ready to address your inquiries or provide any guidance you may require.",
+        "Hi there! How may I be of assistance to you at this time? I'm happy to address your needs and ensure you receive the help you're seeking."
       ]
     },
     {
@@ -84,8 +85,9 @@
         "Help"
       ],
       "responses": [
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hello, how may I assist you today? I'm here to help address any questions or needs you may have.",
+        "Hello, how can I be helpful to you? I'm ready to address your questions or provide any information or guidance you may need.",
+        "Hi there, how may I be of assistance to you today? Please let me know how I can best help you with your request or needs."
       ]
     },
     {
@@ -175,8 +177,8 @@
       "tag": "services",
       "patterns": [
         "What services do you offer?",
-        "Can you tell me about Nexxus Lab's services?",
-        "What kind of work does Nexxus Lab do?",
+        "Can you tell me about Doctor Suzy Roxas's services?",
+        "What kind of work does Doctor Suzy Roxas do?",
         "I'm curious about the services available.",
         "Could you list the services you provide?",
         "What solutions do you offer?",
@@ -196,7 +198,7 @@
         "What services do you provide?",
         "Do you provide marketing services?",
         "Do you do marketing?",
-        "What does Nexxus Lab specialize in?",
+        "What does Doctor Suzy Roxas specialize in?",
         "Can you describe the services you provide?",
         "What can you do for me?",
         "What kind of projects do you handle?",
@@ -227,7 +229,7 @@
         "I'm interested in getting a quote. How do I proceed?",
         "Where can I find information about your rates?",
         "Is it possible to receive a cost estimate for your services?",
-        "How do I request a quote from Nexxus Lab?",
+        "How do I request a quote from Doctor Suzy Roxas?", 
         "Quote?",
         "Quoite?",
         "Qote?",
@@ -247,7 +249,7 @@
         "Can I get a quote for your AI-powered digital marketing service?",
         "Can I avail your AI-powered digital marketing service?",
         "Make me a website.",
-        "How do I request a quote from NexxusLab?",
+        "How do I request a quote from Doctor Suzy Roxas?",
         "Can I request a quote online?",
         "How do I get a quote for a custom project?",
         "Can you give me a quote for a new project?",
@@ -259,29 +261,40 @@
         "Provide quote."
       ],
       "responses": [
-        "Please send us an email at Suzy_roxas@yahoo.com with the details of your project, and we will get back to you with a quote."
+        "Please send us an email at Suzy_roxas@yahoo.com with the details of your project, and we will get back to you with a quote.",
+        "For a quote, please reach out to us at Suzy_roxas@yahoo.com with the specifics of your project, and we'll respond with the necessary information.",
+        "To receive a quote, simply send an email to Suzy_roxas@yahoo.com outlining the details of your project, and we'll be in touch with a proposal.",
+        "If you'd like a quote, go ahead and email Suzy_roxas@yahoo.com with the details of your project, and we'll review the information and get back to you promptly."
       ]
     },
     {
       "tag": "industries",
       "patterns": [
-        "What industries do you specialize in?",
-        "Which sectors does Nexxus Lab primarily work with?",
-        "Do you have any particular industry focus?",
-        "Can you tell me about the types of businesses you typically serve?",
-        "Are there specific industries where you have the most experience?",
-        "What kind of clients do you usually work with?",
-        "Does Nexxus Lab cater to certain business sectors more than others?",
-        "What do you specialize in?",
-        "Which industries does Nexxus Lab have expertise in?",
-        "What business sectors do you focus on?",
-        "Can you provide a list of industries Nexxus Lab serves?",
-        "What fields do you primarily operate in?",
-        "Are there any industries you don't work with?",
-        "What sectors do you have the most projects in?",
-        "In which fields does Nexxus Lab excel?",
-        "What are your primary markets?",
-        "What areas of business do you cover?"
+        "What industries does Doctor Suzy Roxas specialize in?",
+        "Which sectors Doctor Suzy Roxas primarily work with?",
+        "Does Doctor Suzy Roxas have any particular industry focus?",
+        "Can you tell me about the types of businesses Doctor Suzy Roxas typically serve?",
+        "Are there specific industries where Doctor Suzy Roxas have the most experience?",
+        "What kind of clients does Doctor Suzy Roxas usually work with?",
+        "Does Doctor Suzy Roxas cater to certain business sectors more than others?",
+        "What does Doctor Suzy Roxas specialize in?",
+        "Which industries does Doctor Suzy Roxas have expertise in?",
+        "What business sectors does Doctor Suzy Roxas focus on?",
+        "Can you provide a list of industries Doctor Suzy Roxas serves?",
+        "What fields does Doctor Suzy Roxas primarily operate in?",
+        "Are there any industries Doctor Suzy Roxas don't work with?",
+        "What sectors does Doctor Suzy Roxas have the most projects in?",
+        "In which fields does Doctor Suzy Roxas excel?",
+        "What are Doctor Suzy Roxas primary markets?",
+        "What areas of business does Doctor Suzy Roxas cover?",
+        "Which industries are Doctor Suzy Roxas's clients from?",
+        "Does Doctor Suzy Roxas focus on any specific sectors?",
+        "What industries do Doctor Suzy Roxas's clients belong to?",
+        "In what industries does Doctor Suzy Roxas have the most expertise?",
+        "Does Doctor Suzy Roxas have a specialty in any particular business sectors?",
+        "Can you list the business sectors Doctor Suzy Roxas serves?",
+        "Which industries benefit the most from Doctor Suzy Roxas's services?",
+        "What sectors does Doctor Suzy Roxas find the most success in?"
       ],
       "responses": [
         "We work with clients from various industries, including e-commerce, healthcare, education, finance, and more. Our team is equipped to handle diverse projects tailored to your specific industry needs."
@@ -290,31 +303,14 @@
     {
       "tag": "contact",
       "patterns": [
-        "How do I reach out to Nexxus Lab for additional information?",
-        "What's the best way to get in touch with Nexxus Lab?",
-        "Can you provide Nexxus Lab's contact details?",
-        "How do I reach out to Nexxus Lab for further inquiries?",
-        "Where can I find Nexxus Lab's contact information?",
-        "Is there a preferred method for contacting Nexxus Lab?",
-        "Could you tell me how to connect with someone at Nexxus Lab?",
-        "How do I contact your company?",
-        "Who do I contact for internship opportunities?",
-        "Could you tell me how to connect with someone at Nexxus Lab?",
-        "What is your email?",
-        "What is the email address to contact Nexxus Lab?",
-        "How can I send a message to Nexxus Lab?",
-        "Who should I reach out to for customer support?",
-        "Can you tell me how to get in touch with your customer service team?",
-        "Where can I send my inquiries to Nexxus Lab?",
-        "How do I communicate with Nexxus Lab's support team?",
-        "Could you provide the contact number for Nexxus Lab?",
-        "What is the best way to contact Nexxus Lab's support?",
-        "How can I get assistance from Nexxus Lab?",
-        "How do I reach Nexxus Lab for partnership opportunities?",
-        "Who do I email for business inquiries with Nexxus Lab?"
+
+          // Input here ples
+
       ],
       "responses": [
-        "You can reach us at Suzy_roxas@yahoo.com. We are happy to answer any questions and provide additional information about our services."
+
+          // Input here ples
+
       ]
     },
     {
@@ -349,7 +345,9 @@
         "AI?"
       ],
       "responses": [
-        "I'm sorry, but can you please elaborate on that?"
+        "I'm sorry, but can you please elaborate on that?",
+        "Could you please provide more details? I'd be glad to help, but I need a bit more information to give you a thorough response.",
+        "Could you please give me more details? I'd be happy to help once I understand your request better."
       ]
     },
     {
@@ -366,10 +364,11 @@
         "Are you flirting with me?"
       ],
       "responses": [
-        "I'm sorry, but I don't have information about that. I'm an AI assistant focused on Nexxus Lab's services. Is there anything specific about our services, quoting process, project initiation, or SEO offerings that I can help you with?"
+        "I apologize, but I don't have details on that topic. As an AI assistant, I'm focused on providing information about Dr. Suzy Roxas's cognitive therapy services. Is there anything specific I can assist you with regarding her offerings, pricing, or how to get started working with her?",
+        "Unfortunately, I don't have the information you're looking for. However, I'd be happy to help with any questions you have about the services provided by Dr. Suzy Roxas, a cognitive therapist. Please let me know if you need assistance with understanding her treatment approaches or any other aspects of working with her practice.",
+        "I don't have details on that particular subject. As an AI assistant, my knowledge is centered around Dr. Suzy Roxas's cognitive therapy practice. Is there anything I can clarify for you about her services, the consultation process, or how to begin working with her as a patient?"
       ]
     }
-
   ]
 }
 
