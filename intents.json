@@ -303,14 +303,158 @@
     {
       "tag": "contact",
       "patterns": [
-
-          // Input here ples
-
+        "How do I reach out to Dr. Suzy Roxas for additional information?",
+        "How do I reach out to Doctor Suzy Roxas for additional information?",
+        "What's the best way to get in touch with Dr. Suzy Roxas?",
+        "What's the best way to get in touch with Doctor. Suzy Roxas?",
+        "Can you provide Dr. Suzy Roxas' contact details?",
+        "Can you provide Doctor Suzy Roxas' contact details?",
+        "How do I reach out to Dr. Suzy Roxas for further inquiries?",
+        "How do I reach out to Doctor Suzy Roxas for further inquiries?",
+        "Where can I find Dr. Suzy Roxas' contact information?",
+        "Where can I find Doctor Suzy Roxas' contact information?",
+        "Could you tell me how to connect with Doctor Suzy Roxas?",
+        "Could you tell me how to connect with Dr. Suzy Roxas?",
+        "How can I contact Dr. Suzy Roxas?",
+        "How can I contact Doctor Suzy Roxas?",
+        "How do I contact your company?",
+        "How do I contact your clinic?",
+        "Who do I contact for internship opportunities?",
+        "Could you tell me how to connect with someone?",
+        "What is Dr. Suzy Roxas' email?",
+        "What is Doctor Suzy Roxas' email?",
+        "What is your email?",
+        "How can I send a message to Dr. Suzy Roxas?",
+        "How can I send a message to Doctor Suzy Roxas?",
+        "Who should I reach out to for customer support?",
+        "Can you tell me how to get in touch with your customer service team?",
+        "Where can I send my inquiries to Dr. Suzy Roxas?",
+        "Where can I send my inquiries to Doctor Suzy Roxas?",
+        "How do I communicate with Dr. Suzy Roxas?",
+        "How do I communicate with Doctor Suzy Roxas?",
+        "Could you provide Dr. Suzy Roxas' contact number?",
+        "Could you provide Doctor Suzy Roxas' contact number?",
+        "What is the best way to contact Dr. Suzy Roxas?",
+        "What is the best way to contact Doctor Suzy Roxas?"
       ],
       "responses": [
-
-          // Input here ples
-
+        "If you would like to contact Dr. Suzy Roxas please feel free to email her at Suzy_roxas@yahoo.com."
+      ]
+    },
+    {
+      "tag": "Internship_Inquiry",
+      "patterns": [
+        "Internship?",
+        "OJT?",
+        "Do you have an internship?",
+        "Are there any internships available?",
+        "Appreciate it, Can I work as an intern for Dr. Suzy Roxas?",
+        "Appreciate it, Can I work as an intern for Doctor Suzy Roxas?",
+        "Are there any OJT opportunities at your clinic?",
+        "How can I apply for an internship at your clinic?",
+        "Do you offer internships for students?",
+        "Can I get an internship position at your clinic?",
+        "Is Doctor Suzy Roxas hiring interns?",
+        "Is Dr. Suzy Roxas hiring interns?",
+        "How do I become an intern?",
+        "What is the process to apply for an internship?",
+        "Do you have any openings for internships?",
+        "Who do I contact for internship opportunities?",
+        "Can international students apply for internships?",
+        "Can I apply for an OJT?",
+        "Can I apply for an Internship?",
+        "Do you accept On The Job Training Students?",
+        "Do you take in students for an internship?",
+        "I'm looking for an internship opportunity.",
+        "Do you have an OJT program?",
+        "Could you elaborate on the details of your internship?",
+        "Oh I see, is there any on the job training in your company?"
+      ],
+      "responses": [
+        "Yes, Dr. Suzy Roxas accepts interns, kindly send us an email to Suzy_roxas@yahoo.com with your CV and endorsement letter from your school if you are interested."
+      ]
+    },
+    {
+      "tag": "Internship_Duration",
+      "patterns": [
+        "What are the minimum hours required to complete the internship?",
+        "How long is the duration of the internship?",
+        "How many hours does your company require us to complete our OJT?",
+        "How long is your OJT program?",
+        "How many hours do I need to complete my internship with you?",
+        "How long is the internship at Nexxus Lab?",
+        "How long do I need to work for you to complete my OJT?",
+        "How long do I need to work for you to complete my internship?",
+        "May I ask how long is the work period for OJT?",
+        "Is it possible to have OJT within the required hours of my University?",
+        "What is the required hours for the internship?",
+        "What is the minimum amount of hours for the internship?",
+        "Do you have a set amount of work hours for an internship?",
+        "Do you have a specific amount of work hours for OJT?",
+        "Can you tell me the internship duration of your company?",
+        "Can you elaborate to me the internship duration of your company?"
+      ],
+      "responses": [
+        "Dr. Suzy Roxas doesn't have a specific minimum number of hours required for completing your internship. You will only follow the hours required by your school to ensure you meet their criteria for the internship."
+      ]
+    },
+    {
+      "tag": "Internship_Requirements",
+      "patterns": [
+        "What are your requirements for an internship?",
+        "What documents do I have to send when applying for an OJT?",
+        "What documents do I have to send when applying for an Internship?",
+        "What are the files I need to submit to apply for an OJT?",
+        "What are the files I need to submit to apply for an Internship?",
+        "Required documents for OJT.",
+        "Required files for OJT.",      
+        "How can I get an internship?",
+        "Required documents for Internship.",
+        "Required files for Internship.",
+        "Do I need to submit a Resume and a cover letter?",
+        "Is the internship paid?",
+        "Will I get paid?",
+        "What are the requirements for an internship with Dr. Suzy Roxas?",
+        "Is this a paid internship?",
+        "Do you provide a paid-internship?",
+        "Do I have to sign an NDA form?",
+        "Do I have to sign a Non-Disclosure Agreement?",
+        "How do I apply for an OJT?",
+        "What are the requirements?",
+        "Hello, how can I take my internship in your clinic?",
+        "Hello, how can I take my internship in your company?",
+        "How can I take my internship in your clinic?",
+        "How can I take my internship in your company?"
+      ],
+      "responses": [
+        "Doctor Suzy Roxas requires aspiring interns to submit their CV and endorsement letter from their university. Keep in mind that this is a non-paid internship and we will require you to sign a Non-Disclosure Agreement when you're accepted."
+      ]
+    },
+    {
+      "tag": "Internship_Details",
+      "patterns": [
+        "What are the tasks if I were to apply for an internship at your company?",
+        "What responsibilities will I be doing for OJT?",
+        "What are the positions available for internship?",
+        "What are the roles available for internship?",
+        "What kind of tasks should I expect when I apply for an internship?",
+        "Are there any training programs for interns?",
+        "What can I expect to learn during my internship?",
+        "Can you give an overview of the intern responsibilities?",
+        "What kind of assignments do interns receive?",
+        "What specific responsibilities are assigned to interns?",
+        "What kind of projects will interns be working on?",
+        "What type of work will I be involved in as an intern?",
+        "Can you outline the tasks for an internship role?",
+        "Can you tell me what interns do in your company?",
+        "What is the workload for interns?",
+        "What roles should I keep in mind if I plan to be an intern?",
+        "Tell me role expectations for the internship.",
+        "List of positions for the internship",
+        "List of roles for the internship."
+      ],
+      "responses": [
+        "Doctor Suzy Roxas offer roles in Social media manager, researcher, and ebook writer. Interns will gain hands-on experience in their chosen field, working on real projects and collaborating with Doctor Suzy Roxas herself."
       ]
     },
     {
