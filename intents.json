@@ -447,6 +447,34 @@
       ]
     },
     {
+      "tag": "Schedule",
+      "patterns": [
+        "What is Dr. Suzy Roxas' availability?",
+        "When is Dr. Suzy Roxas available for appointments?",
+        "Can you tell me Dr. Suzy Roxas' schedule?",
+        "What are Dr. Suzy Roxas' working hours?",
+        "When can I book an appointment with Dr. Suzy Roxas?",
+        "How do I schedule a meeting with Dr. Suzy Roxas?",
+        "What times is Dr. Suzy Roxas available?",
+        "Can you provide Dr. Suzy Roxas' office hours?",
+        "What is the best time to reach Dr. Suzy Roxas?",
+        "When does Dr. Suzy Roxas take appointments?",
+        "How do I book a slot with Dr. Suzy Roxas?",
+        "What days is Dr. Suzy Roxas available?",
+        "Is Dr. Suzy Roxas available on weekends?",
+        "Can I schedule an appointment with Dr. Suzy Roxas during evenings?",
+        "What are the consultation hours for Dr. Suzy Roxas?",
+        "When is Dr. Suzy Roxas free for consultations?",
+        "What are Dr. Suzy Roxas' consulting hours?",
+        "When is the next available appointment with Dr. Suzy Roxas?",
+        "How can I check Dr. Suzy Roxas' availability?",
+        "What is Dr. Suzy Roxas' timetable?"
+      ],
+      "responses": [
+        "Dr. Suzy Roxas is available from Monday to Friday at 10:00 AM - 6:00 PM. If you are interested in booking an appointment, please contact us at Suzy_roxas@yahoo.com, and we'll reach out to you promptly."
+      ]
+    },    
+    {
       "tag": "Vague_inquiry",
       "patterns": [
         "What about me?",
