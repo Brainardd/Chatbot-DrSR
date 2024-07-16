@@ -152,7 +152,7 @@
         "Thank you for your assistance.",
         "Many thanks.",
         "Thanks a bunch.",
-        "Cheers.",
+        "Got it, thanks.",
         "Thanks a ton.",
         "Thanks, you're a lifesaver.",
         "Thank you kindly.",
@@ -165,7 +165,14 @@
         "You've been a great help, thank you.",
         "Thanks for everything.",
         "You've been incredibly helpful!",
-        "Thanks for everything."
+        "Thanks for everything.",
+        "That's all, thank you.",
+        "Alright, thanks.",
+        "I'm good, thank you.",
+        "I think I'm good, thanks.",
+        "I understand, thanks.",
+        "You've been helpful.",
+        "I have no more questions, thank you."
       ],
       "responses": [
         "I'm glad that I helped you.",
@@ -257,39 +264,6 @@
       ]
     },
     {
-      "tag": "industries",
-      "patterns": [
-        "What industries does Doctor Suzy Roxas specialize in?",
-        "Which sectors Doctor Suzy Roxas primarily work with?",
-        "Does Doctor Suzy Roxas have any particular industry focus?",
-        "Can you tell me about the types of businesses Doctor Suzy Roxas typically serve?",
-        "Are there specific industries where Doctor Suzy Roxas have the most experience?",
-        "What kind of clients does Doctor Suzy Roxas usually work with?",
-        "Does Doctor Suzy Roxas cater to certain business sectors more than others?",
-        "What does Doctor Suzy Roxas specialize in?",
-        "Which industries does Doctor Suzy Roxas have expertise in?",
-        "What business sectors does Doctor Suzy Roxas focus on?",
-        "Can you provide a list of industries Doctor Suzy Roxas serves?",
-        "What fields does Doctor Suzy Roxas primarily operate in?",
-        "Are there any industries Doctor Suzy Roxas don't work with?",
-        "What sectors does Doctor Suzy Roxas have the most projects in?",
-        "In which fields does Doctor Suzy Roxas excel?",
-        "What are Doctor Suzy Roxas primary markets?",
-        "What areas of business does Doctor Suzy Roxas cover?",
-        "Which industries are Doctor Suzy Roxas's clients from?",
-        "Does Doctor Suzy Roxas focus on any specific sectors?",
-        "What industries do Doctor Suzy Roxas's clients belong to?",
-        "In what industries does Doctor Suzy Roxas have the most expertise?",
-        "Does Doctor Suzy Roxas have a specialty in any particular business sectors?",
-        "Can you list the business sectors Doctor Suzy Roxas serves?",
-        "Which industries benefit the most from Doctor Suzy Roxas's services?",
-        "What sectors does Doctor Suzy Roxas find the most success in?"
-      ],
-      "responses": [
-        "Dr. Suzy Roxas works with clients from various industries, including e-commerce, healthcare, education, finance, and more. Our team is equipped to handle diverse projects tailored to your specific industry needs."
-      ]
-    },
-    {
       "tag": "contact",
       "patterns": [
         "How do I reach out to Dr. Suzy Roxas for additional information?",
@@ -324,7 +298,12 @@
         "Could you provide Dr. Suzy Roxas' contact number?",
         "Could you provide Doctor Suzy Roxas' contact number?",
         "What is the best way to contact Dr. Suzy Roxas?",
-        "What is the best way to contact Doctor Suzy Roxas?"
+        "What is the best way to contact Doctor Suzy Roxas?",
+        "Do you think I can talk to her today?",
+        "I would like to speak to Dr. Suzy Roxas.",
+        "I would like to speak to Doctor Suzy Roxas.",
+        "I want to talk to Dr. Suzy Roxas.",
+        "I want to talk to Doctor Suzy Roxas."
       ],
       "responses": [
         "If you would like to contact Dr. Suzy Roxas please feel free to email her at Suzy_roxas@yahoo.com."
@@ -371,7 +350,7 @@
         "How many hours does your company require us to complete our OJT?",
         "How long is your OJT program?",
         "How many hours do I need to complete my internship with you?",
-        "How long is the internship at you company?",
+        "How long is the internship at Nexxus Lab?",
         "How long do I need to work for you to complete my OJT?",
         "How long do I need to work for you to complete my internship?",
         "May I ask how long is the work period for OJT?",
@@ -416,7 +395,7 @@
         "How can I take my internship in your company?"
       ],
       "responses": [
-        "Doctor Suzy Roxas requires aspiring interns to submit their CV and endorsement letter from their university. Keep in mind that this is a non-paid internship and we will require you to sign a Non-Disclosure Agreement when you're accepted."
+        "Dr. Suzy Roxas requires aspiring interns to submit their CV and endorsement letter from their university. Keep in mind that this is a non-paid internship and we will require you to sign a Non-Disclosure Agreement when you're accepted."
       ]
     },
     {
@@ -443,7 +422,7 @@
         "List of roles for the internship."
       ],
       "responses": [
-        "Doctor Suzy Roxas offer roles in Social media manager, researcher, and ebook writer. Interns will gain hands-on experience in their chosen field, working on real projects and collaborating with Doctor Suzy Roxas herself."
+        "Dr. Suzy Roxas offer roles in Social media manager, researcher, and ebook writer. Interns will gain hands-on experience in their chosen field, working on real projects and collaborating with Doctor Suzy Roxas herself."
       ]
     },
     {
@@ -468,7 +447,13 @@
         "What are Dr. Suzy Roxas' consulting hours?",
         "When is the next available appointment with Dr. Suzy Roxas?",
         "How can I check Dr. Suzy Roxas' availability?",
-        "What is Dr. Suzy Roxas' timetable?"
+        "What is Dr. Suzy Roxas' timetable?",
+        "Do you know when I can see Dr. Suzy Roxas?",
+        "Do you know when I can see Doctor Suzy Roxas?",
+        "When can I see the doctor?",
+        "When can I see Dr. Suzy Roxas?",
+        "When can I see Doctor Suzy Roxas?",
+        "Do you know when I can see Doctor Suzy Roxas?"
       ],
       "responses": [
         "Dr. Suzy Roxas is available from Monday to Friday at 10:00 AM - 6:00 PM. If you are interested in booking an appointment, please contact us at Suzy_roxas@yahoo.com, and we'll reach out to you promptly."
@@ -512,6 +497,43 @@
       ]
     },
     {
+      "tag": "Filler",
+      "patterns": [
+        "Oh ok.",
+        "I see",
+        "Okay.",
+        "ok",
+        "ohhh",
+        "Oh I see",
+        "oh okay.",
+        "Got it.",
+        "Alright.",
+        "Understood.",
+        "Sure.",
+        "Ah, I get it.",
+        "Hmm, makes sense.",
+        "Alright then.",
+        "Okay, gotcha.",
+        "I understand.",
+        "Makes sense.",
+        "Okay, I see now.",
+        "Ah, okay.",
+        "Gotcha.",
+        "I see what you mean.",
+        "Okay, understood.",
+        "Alright, got it.",
+        "Okay, that makes sense.",
+        "Okay, cool.",
+        "Alright, makes sense,",
+        "Ah, got it.",
+        "Noted",
+        "Okay, thanks for letting me know"
+      ],
+      "responses": [
+        "Is there anything else I can help you with?"
+      ]
+    },
+    {
       "tag": "unknown",
       "patterns": [
         "What about me?",
@@ -532,4 +554,3 @@
     }
   ]
 }
-
