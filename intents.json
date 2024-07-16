@@ -439,6 +439,9 @@
         "What is the best time to reach Dr. Suzy Roxas?",
         "When does Dr. Suzy Roxas take appointments?",
         "How do I book a slot with Dr. Suzy Roxas?",
+        "I need an appointment with Dr. Suzy Roxas.",
+        "I need an appointment with Doctor Suzy Roxas.",
+        "I need an appointment, I'm not feeling well.",
         "What days is Dr. Suzy Roxas available?",
         "Is Dr. Suzy Roxas available on weekends?",
         "Can I schedule an appointment with Dr. Suzy Roxas during evenings?",
@@ -551,6 +554,27 @@
         "Unfortunately, I don't have the information you're looking for. However, I'd be happy to help with any questions you have about the services provided by Dr. Suzy Roxas, a cognitive therapist. Please let me know if you need assistance with understanding her treatment approaches or any other aspects of working with her practice.",
         "I don't have details on that particular subject. As an AI assistant, my knowledge is centered around Dr. Suzy Roxas's cognitive therapy practice. Is there anything I can clarify for you about her services, the consultation process, or how to begin working with her as a patient?"
       ]
+    },
+    {
+      "tag": "Mura",
+      "patterns": [
+        "Putang Ina mo!",
+        "Tangina mo",
+        "Tang ina ka",
+        "Gago ka ba?",
+        "Gago ka",
+        "Bobo ka ba?",
+        "Tanga ka ba?",
+        "Tanga ka?",
+        "Tanga",
+        "Bobo",
+        "Bobo mo naman kausap.",
+        "Hayop ka!"
+      ],
+      "responses": [
+        "Please refrain from saying bad words."
+      ]
     }
   ]
 }
+
