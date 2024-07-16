@@ -49,7 +49,7 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
     
-    return "I'm sorry, but I don't have information about that. I'm an AI assistant focused on Nexxus Lab's services. Is there anything specific about our services, quoting process, project initiation, or SEO offerings that I can help you with?"
+    return "I apologize, but I don't have details on that topic. As an AI assistant, I'm focused on providing information about Dr. Suzy Roxas's cognitive therapy services. Is there anything specific I can assist you with regarding her offerings, pricing, or how to get started working with her?"
 
 if __name__ == "__main__":
     profanity.load_censor_words()  # Load default profanity words
