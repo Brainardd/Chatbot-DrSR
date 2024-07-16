@@ -12,11 +12,11 @@
   }
   
   .chatbot-container {
-    --primaryGradient: linear-gradient(93.12deg, #0d1f3f 0.45%, #193b7a 100%);
-    --secondaryGradient: linear-gradient(268.91deg, #0d1f3f -2.14%, #193b7a 99.69%);
-    --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    --primaryGradient: linear-gradient(93.12deg, #62656b 0.45%, #c4016a 100%);
+    --secondaryGradient: linear-gradient(268.91deg, #888c92 -2.14%, #c4016a 99.69%);
+    --primaryBoxShadow: 0px 10px 15px rgba(196, 175, 175, 0.1);
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
-    --primary: #193b7a;
+    --primary: #b953ac;
   }
   
   /* CHATBOX */
