@@ -2,7 +2,7 @@ import random
 import json
 import numpy as np
 import torch
-from better_profanity import profanity  # Import the profanity filter
+from better_profanity import profanity
 
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
