@@ -152,7 +152,7 @@
         "Thank you for your assistance.",
         "Many thanks.",
         "Thanks a bunch.",
-        "Cheers.",
+        "Got it, thanks.",
         "Thanks a ton.",
         "Thanks, you're a lifesaver.",
         "Thank you kindly.",
@@ -167,9 +167,12 @@
         "You've been incredibly helpful!",
         "Thanks for everything.",
         "That's all, thank you.",
+        "Alright, thanks.",
         "I'm good, thank you.",
         "I think I'm good, thanks.",
-        "You've been helpful."
+        "I understand, thanks.",
+        "You've been helpful.",
+        "I have no more questions, thank you."
       ],
       "responses": [
         "I'm glad that I helped you.",
@@ -295,7 +298,12 @@
         "Could you provide Dr. Suzy Roxas' contact number?",
         "Could you provide Doctor Suzy Roxas' contact number?",
         "What is the best way to contact Dr. Suzy Roxas?",
-        "What is the best way to contact Doctor Suzy Roxas?"
+        "What is the best way to contact Doctor Suzy Roxas?",
+        "Do you think I can talk to her today?",
+        "I would like to speak to Dr. Suzy Roxas.",
+        "I would like to speak to Doctor Suzy Roxas.",
+        "I want to talk to Dr. Suzy Roxas.",
+        "I want to talk to Doctor Suzy Roxas."
       ],
       "responses": [
         "If you would like to contact Dr. Suzy Roxas please feel free to email her at Suzy_roxas@yahoo.com."
@@ -442,7 +450,10 @@
         "What is Dr. Suzy Roxas' timetable?",
         "Do you know when I can see Dr. Suzy Roxas?",
         "Do you know when I can see Doctor Suzy Roxas?",
-        "When can I see the doctor?"
+        "When can I see the doctor?",
+        "When can I see Dr. Suzy Roxas?",
+        "When can I see Doctor Suzy Roxas?",
+        "Do you know when I can see Doctor Suzy Roxas?"
       ],
       "responses": [
         "Dr. Suzy Roxas is available from Monday to Friday at 10:00 AM - 6:00 PM. If you are interested in booking an appointment, please contact us at Suzy_roxas@yahoo.com, and we'll reach out to you promptly."
@@ -503,7 +514,6 @@
         "Hmm, makes sense.",
         "Alright then.",
         "Okay, gotcha.",
-        "Got it, thanks.",
         "I understand.",
         "Makes sense.",
         "Okay, I see now.",
@@ -513,10 +523,8 @@
         "Okay, understood.",
         "Alright, got it.",
         "Okay, that makes sense.",
-        "Alright, thanks.",
         "Okay, cool.",
         "Alright, makes sense,",
-        "I understand, thanks.",
         "Ah, got it.",
         "Noted",
         "Okay, thanks for letting me know"
