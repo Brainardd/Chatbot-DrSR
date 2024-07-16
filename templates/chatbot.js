@@ -80,13 +80,28 @@ class Chatbox {
             }
 
             this.messages.push(msg2);
-            this.updateChatText(chatbox);
+            this.typeWriterEffect(chatbox, msg2.message);
             textField.value = '';
 
         }).catch((error) => {
             console.error('Error:', error);
             textField.value = '';
           });
+    }
+
+    typeWriterEffect(chatbox, message, index = 0, element = null) {
+        if (!element) {
+            const chatmessage = chatbox.querySelector('.chatbox__messages > div');
+            element = document.createElement('div');
+            element.className = 'messages__item messages__item--visitor';
+            chatmessage.appendChild(element);
+        }
+
+        if (index < message.length) {
+            element.innerHTML += message.charAt(index);
+            index++;
+            setTimeout(() => this.typeWriterEffect(chatbox, message, index, element), 15);
+        }
     }
 
     updateChatText(chatbox) {
