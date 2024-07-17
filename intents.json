@@ -41,7 +41,8 @@
         "Ahoy!",
         "Hola!",
         "Bonjour!",
-        "Annyeonghaseyo"
+        "Annyeonghaseyo",
+        "Hello po"
       ],
       "responses": [
         "Welcome! How can I be helpful to you today? Please let me know how I can best support you with your current request.",
@@ -172,7 +173,9 @@
         "I think I'm good, thanks.",
         "I understand, thanks.",
         "You've been helpful.",
-        "I have no more questions, thank you."
+        "I have no more questions, thank you.",
+        "Nothing else",
+        "Nothing more"
       ],
       "responses": [
         "I'm glad that I helped you. Is there anything else that I can assist you with?",
@@ -228,39 +231,24 @@
       ]
     },
     {
-      "tag": "quote",
+      "tag": "fee",
       "patterns": [
-        "How can I get a quote for your services?",
-        "What's the process for obtaining a price estimate?",
-        "Can you provide pricing information for your services?",
-        "I'm interested in getting a quote. How do I proceed?",
-        "Where can I find information about your rates?",
-        "Is it possible to receive a cost estimate for your services?",
-        "How do I request a quote from Doctor Suzy Roxas?", 
-        "Quote?",
-        "Quoite?",
-        "Qote?",
-        "Qute?",
-        "How do I get quote from you?",
-        "How do I inquire for a service?",
-        "How can I avail?",
-        "How do I avail?",
-        "How do I request a quote from Doctor Suzy Roxas?",
-        "Can I request a quote online?",
-        "How do I get a quote for a custom project?",
-        "Can you give me a quote for a new project?",
-        "Can you tell me how to get a cost estimate for your services?",
-        "What's the procedure to get a quote for your services?",
-        "Give me quote.",
-        "Show me quote",
-        "What is quote?",
-        "Provide quote."
+        "How much is your service?",
+        "What would it cost?",
+        "How much do you charge for your services?",
+        "Can you tell me the cost of your service?",
+        "What are your rates for this service?",
+        "What is the price for a single session of this service?",
+        "May I ask how much your services cost?",
+        "Could you let me know your pricing for this service?",
+        "Would you mind sharing the cost of your service with me?",
+        "What are the typical costs for your service?",
+        "What is the cost for a one-hour consultation?",
+        "How much would it be to schedule an initial session?",
+        "Can you tell me the fees for ongoing sessions?"
       ],
       "responses": [
-        "Please send us an email at Suzy_roxas@yahoo.com with the details of your project, and we will get back to you with a quote.",
-        "For a quote, please reach out to us at Suzy_roxas@yahoo.com with the specifics of your project, and we'll respond with the necessary information.",
-        "To receive a quote, simply send an email to Suzy_roxas@yahoo.com outlining the details of your project, and we'll be in touch with a proposal.",
-        "If you'd like a quote, go ahead and email Suzy_roxas@yahoo.com with the details of your project, and we'll review the information and get back to you promptly."
+        "Dr. Suzy's fee per session is ₱5,500."
       ]
     },
     {
@@ -306,7 +294,7 @@
         "I want to talk to Doctor Suzy Roxas."
       ],
       "responses": [
-        "If you would like to contact Dr. Suzy Roxas please feel free to email her at Suzy_roxas@yahoo.com."
+        "If you would like to contact Dr. Suzy Roxas please feel free to email her at Suzy_roxas@yahoo.com. Please note that she does not provide her telephone or cellphone number."
       ]
     },
     {
@@ -456,7 +444,11 @@
         "When can I see the doctor?",
         "When can I see Dr. Suzy Roxas?",
         "When can I see Doctor Suzy Roxas?",
-        "Do you know when I can see Doctor Suzy Roxas?"
+        "Do you know when I can see Doctor Suzy Roxas?",
+        "I need some consulting",
+        "Can you book me an appointment?",
+        "Appointment?",
+        "Is there any way that I can book an appointment?"
       ],
       "responses": [
         "Dr. Suzy Roxas is available from Monday to Friday at 10:00 AM - 6:00 PM. If you are interested in booking an appointment, please contact us at Suzy_roxas@yahoo.com, and we'll reach out to you promptly."
@@ -530,7 +522,8 @@
         "Alright, makes sense,",
         "Ah, got it.",
         "Noted",
-        "Okay, thanks for letting me know"
+        "Okay, thanks for letting me know",
+        "Oki"
       ],
       "responses": [
         "Is there anything else I can help you with?"
@@ -577,7 +570,26 @@
       "responses": [
         "Please refrain from saying bad words."
       ]
+    },
+    {
+      "tag": "What_CT",
+      "patterns": [
+        "What is cognitive therapy?",
+        "Can you define cognitive therapy?",
+        "What's the definition of cognitive therapy?",
+        "What conditions can cognitive therapy treat?",
+        "What can cognitive therapy help with?",
+        "How does cognitive therapy work?",
+        "What does cognitive therapy do?",
+        "What does cognitive therapy do to help?",
+        "How can I calm myself down?",
+        "How do I deal with my trauma?",
+        "I have PTSD, What should I do?",
+        "Help me I'm having a panick attack."
+      ],
+      "responses": [
+        "Please email Dr. Suzy immediately at Suzy_roxas@yahoo.com to schedule an appointment for diagnosis and an in depth explanation of your concerns."
+      ]
     }
   ]
 }
-
