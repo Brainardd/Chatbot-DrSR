@@ -83,7 +83,9 @@
         "I need a little help with something.",
         "Could you help me figure this out?",
         "Will you lend a hand?",
-        "Help"
+        "Help",
+        "I want your help.",
+        "I need your help."
       ],
       "responses": [
         "Hello, how may I assist you today? I'm here to help address any questions or needs you may have.",
@@ -347,8 +349,10 @@
         "What is the minimum amount of hours for the internship?",
         "Do you have a set amount of work hours for an internship?",
         "Do you have a specific amount of work hours for OJT?",
-        "Can you tell me the internship duration of your company?",
-        "Can you elaborate to me the internship duration of your company?"
+        "Can you tell me the internship duration of your clinic?",
+        "Can you elaborate to me the internship duration of your clinic?",
+        "How long will I be staying to complete my internship?",
+        "How many hours do I need to render for the internship?"
       ],
       "responses": [
         "Dr. Suzy Roxas doesn't have a specific minimum number of hours required for completing your internship. You will only follow the hours required by your school to ensure you meet their criteria for the internship."
@@ -572,7 +576,7 @@
       ]
     },
     {
-      "tag": "What_CT",
+      "tag": "Immediate",
       "patterns": [
         "What is cognitive therapy?",
         "Can you define cognitive therapy?",
@@ -585,7 +589,16 @@
         "How can I calm myself down?",
         "How do I deal with my trauma?",
         "I have PTSD, What should I do?",
-        "Help me I'm having a panick attack."
+        "Help me I'm having a panick attack.",
+        "I'm suffering from PTSD, can you help me?",
+        "I'm suffering from trauma, can you help me?",
+        "I'm depressed.",
+        "I need help, I'm depressed.",
+        "I've been feeling down lately",
+        "I'm suicidal.",
+        "I want to kill myself.",
+        "Can you help me with my depression?",
+        "Can you calm me down?"
       ],
       "responses": [
         "Please email Dr. Suzy immediately at Suzy_roxas@yahoo.com to schedule an appointment for diagnosis and an in depth explanation of your concerns."
