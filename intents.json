@@ -176,12 +176,9 @@
         "I understand, thanks.",
         "You've been helpful.",
         "I have no more questions, thank you.",
-<<<<<<< HEAD
-        "Alright, thanks."
-=======
+        "Alright, thanks.",
         "Nothing else",
         "Nothing more"
->>>>>>> bea0bc9605b25349099f1f52ecaaa56f47b8c2e9
       ],
       "responses": [
         "I'm glad that I helped you. Is there anything else that I can assist you with?",
