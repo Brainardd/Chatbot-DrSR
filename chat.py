@@ -42,7 +42,7 @@ def get_response(msg):
 
     tag = tags[predicted.item()]
 
-    probs = torch.softmax(output, dim=1)
+    probs = torch.softmax(output, dim=1) 
     prob = probs[0][predicted.item()]
     if prob.item() > 0.95:
         for intent in intents['intents']:
