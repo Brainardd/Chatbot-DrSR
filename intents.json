@@ -248,7 +248,12 @@
         "What are the typical costs for your service?",
         "What is the cost for a one-hour consultation?",
         "How much would it be to schedule an initial session?",
-        "Can you tell me the fees for ongoing sessions?"
+        "Can you tell me the fees for ongoing sessions?",
+        "How much would it cost me?",
+        "How much are you charging?",
+        "How much per session?",
+        "How mych does a session cost?",
+        "How much does Dr. Suzy charge her clients?"
       ],
       "responses": [
         "Dr. Suzy's fee per session is ₱5,500."
@@ -605,6 +610,34 @@
       ],
       "responses": [
         "Please email Dr. Suzy immediately at Suzy_roxas@yahoo.com to schedule an appointment for diagnosis and an in depth explanation of your concerns."
+      ]
+    },
+    {
+      "tag": "Confidential",
+      "patterns": [
+        "Is everything we talk about here confidential?",
+        "Will my sessions with Dr. Roxas be private?",
+        "Are my details safe with you?",
+        "Can I trust that what I say won't be shared?",
+        "Is ours conversation going to stay between us?",
+        "Will my iunformation be kept confidential?",
+        "Are my therapy sessions private?",
+        "Who will know about what we discuss?",
+        "Is my privacy guaranteed here?",
+        "Will my personal information be protected?",
+        "Do you keep everything I say confidential?",
+        "Can I be sure my details are secure?",
+        "Are our sessions confidential?",
+        "Is the information I share kept private?",
+        "Will my discussions with Dr. Roxas remain confidential?",
+        "Is there any chance my information could be shared?",
+        "How do you protect my privacy?",
+        "Are our conversations private?",
+        "Is confidentiality ensured in my sessions?",
+        "Who can access my therapy information?"
+      ],
+      "responses": [
+        " I want to assure you that all conversations and information shared with Dr. Suzy Roxas are kept completely confidential. Dr. Roxas follows strict ethical guidelines to ensure your privacy and confidentiality are always protected. You can feel safe and secure knowing that everything discussed during your sessions will remain private."
       ]
     }
   ]
