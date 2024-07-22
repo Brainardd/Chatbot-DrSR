@@ -4,7 +4,8 @@ class Chatbox {
             openButton: document.querySelector('.chatbox__button'),
             chatBox: document.querySelector('.chatbox__support'),
             sendButton: document.querySelector('.send__button'),
-            resetButton: document.querySelector('#reset')  // Added reset button
+            resetButton: document.querySelector('#reset'),  // Added reset button
+            faqButtons: document.querySelectorAll('.faq__button')  // Added FAQ buttons
         }
 
         this.state = false;
@@ -13,11 +14,18 @@ class Chatbox {
     }
 
     display() {
-        const {openButton, chatBox, sendButton, resetButton} = this.args;
+        const {openButton, chatBox, sendButton, resetButton, faqButtons} = this.args;
 
         openButton.addEventListener('click', () => this.toggleState(chatBox));
         sendButton.addEventListener('click', () => this.onSendButton(chatBox));
         resetButton.addEventListener('click', () => this.resetChat(chatBox));  // Added event listener for reset button
+
+        faqButtons.forEach(button => {
+            button.addEventListener('click', (event) => {
+                const question = event.target.dataset.question;
+                this.sendFAQQuestion(chatBox, question);
+            });
+        });
 
         const node = chatBox.querySelector('input');
         node.addEventListener("keyup", ({key}) => {
@@ -45,6 +53,19 @@ class Chatbox {
             return;
         }
 
+        this.sendMessage(chatbox, text1);
+        textField.value = '';
+    }
+
+    sendFAQQuestion(chatbox, question) {
+        if (question === "") {
+            return;
+        }
+
+        this.sendMessage(chatbox, question);
+    }
+
+    sendMessage(chatbox, text1) {
         // Always push the user's message
         let msg1 = { name: "User", message: text1 };
         this.messages.push(msg1);
@@ -54,7 +75,6 @@ class Chatbox {
         if (this.abusiveCounter >= 3) {
             this.messages.push({ name: "Sam", message: "Please contact us at Suzy_roxas@yahoo.com. I'm sorry but I will no longer entertain any of your messages. Thank you." });
             this.updateChatText(chatbox);
-            textField.value = '';
             return;
         }
 
@@ -81,11 +101,9 @@ class Chatbox {
 
             this.messages.push(msg2);
             this.typeWriterEffect(chatbox, msg2.message);
-            textField.value = '';
 
         }).catch((error) => {
             console.error('Error:', error);
-            textField.value = '';
           });
     }
 
@@ -127,6 +145,25 @@ class Chatbox {
         // Also clear the chatbox HTML
         const chatmessage = chatbox.querySelector('.chatbox__messages > div');
         chatmessage.innerHTML = '';
+
+        // Reinsert the FAQ buttons
+        const faqHtml = `
+            <div class="chatbox__faq">
+                <button class="faq__button" data-question="How do I contact Dr. Suzy?">How do I contact Dr. Suzy?</button>
+                <button class="faq__button" data-question="When are you available?">When are you available?</button>
+                <button class="faq__button" data-question="How much is an appointment?">How much is an appointment?</button>
+            </div>
+        `;
+        chatmessage.insertAdjacentHTML('afterbegin', faqHtml);
+
+        // Re-add event listeners to the new FAQ buttons
+        const newFaqButtons = chatmessage.querySelectorAll('.faq__button');
+        newFaqButtons.forEach(button => {
+            button.addEventListener('click', (event) => {
+                const question = event.target.dataset.question;
+                this.sendFAQQuestion(chatbox, question);
+            });
+        });
     }
 }
 
