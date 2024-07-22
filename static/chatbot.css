@@ -442,8 +442,7 @@
 
 /* FAQ Buttons */
 .chatbot-container .faq__button {
-display: flex;
-justify-content: flex-end;
+margin-right: auto;
 padding: 10px 20px;
 margin: 5px 5px;
 border: none;
