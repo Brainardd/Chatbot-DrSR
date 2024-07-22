@@ -440,6 +440,18 @@
   }
 }
 
+.chatbot-container .chatbox__faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  height: 100%;
+}
+
+.chatbot-container .faq__button {
+  margin: 5px 0;
+}
+
 /* FAQ Buttons */
 .chatbot-container .faq__button {
 margin-right: auto;
@@ -455,5 +467,5 @@ font-size: 0.9rem;
 }
 
 .chatbot-container .faq__button:hover {
-background: #c4016a;  /* Slightly darker shade */
+background: #c4016a;
 }

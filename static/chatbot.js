@@ -151,7 +151,7 @@ class Chatbox {
             <div class="chatbox__faq">
                 <button class="faq__button" data-question="How can I contact Dr. Suzy Roxas?">How can I contact Dr. Suzy Roxas?</button>
                 <button class="faq__button" data-question="What services are provided?">What services are provided?</button>
-                <button class="faq__button" data-question="What are the session fees?">What are the session fees?</button>
+                <button class="faq__button" data-question="How much the session fees?">How much are the session fees?</button>
                 <button class="faq__button" data-question="When is Dr. Suzy Roxas available for appointments?">When is Dr. Suzy Roxas available for appointments?</button>
                 <button class="faq__button" data-question="Are there any internship opportunities?">Are there any internship opportunities?</button>
                 <button class="faq__button" data-question="Do you offer online therapy sessions?">Do you offer online therapy sessions?</button>
