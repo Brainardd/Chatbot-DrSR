@@ -83,11 +83,11 @@ class Chatbox {
             body: JSON.stringify({ message: text1 }),
             mode: 'cors',
             headers: {
-              'Content-Type': 'application/json'
+            'Content-Type': 'application/json'
             },
-          })
-          .then(r => r.json())
-          .then(r => {
+        })
+        .then(r => r.json())
+        .then(r => {
             let msg2 = { name: "Sam", message: r.answer };
 
             // Check if the response is the specific abusive message
@@ -104,7 +104,7 @@ class Chatbox {
 
         }).catch((error) => {
             console.error('Error:', error);
-          });
+        });
     }
 
     typeWriterEffect(chatbox, message, index = 0, element = null) {
