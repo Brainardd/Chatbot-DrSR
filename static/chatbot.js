@@ -154,7 +154,6 @@ class Chatbox {
                 <button class="faq__button" data-question="How much the session fees?">How much are the session fees?</button>
                 <button class="faq__button" data-question="When is Dr. Suzy Roxas available for appointments?">When is Dr. Suzy Roxas available for appointments?</button>
                 <button class="faq__button" data-question="Are there any internship opportunities?">Are there any internship opportunities?</button>
-                <button class="faq__button" data-question="Do you offer online therapy sessions?">Do you offer online therapy sessions?</button>
             </div>
         `;
         chatmessage.insertAdjacentHTML('afterbegin', faqHtml);
